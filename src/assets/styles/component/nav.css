@@ -1,0 +1,83 @@
+.main-nav {
+  width: 205px;
+  background: #3e484e;
+  position: absolute;
+  left: 0px;
+  height: 100%;
+}
+
+.main-nav .logo {
+  height: 55px;
+  background: #009dd9;
+  text-align: center;
+}
+
+.main-nav .logo .mob {
+  height: 55px;
+  display: none;
+}
+.main-nav .logo .mob img {
+  width: 40px;
+  margin: 8px 0px;
+}
+.main-nav .logo .all-screen {
+  display: block;
+}
+
+.main-nav .logo .all-screen img {
+  width: 140px;
+  margin: 8px 0px;
+}
+
+.main-nav .nav {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.main-nav .nav li {
+  height: 55px;
+  line-height: 55px;
+  display: block;
+  border-top: rgba(228, 232, 235, 0.05) solid 1px;
+  width: 100%;
+}
+.main-nav .nav li a {
+  color: #ffffff;
+  display: block;
+  text-decoration: none;
+}
+
+.main-nav .nav li a span {
+}
+.main-nav .nav li i {
+  padding: 0px 20px;
+  font-size: 22px;
+}
+.main-nav .nav li:last-child {
+  border-bottom: rgba(228, 232, 235, 0.05) solid 1px;
+}
+
+.main-nav .nav li:hover {
+  background: #009dd9;
+}
+
+.main-nav .nav .selected {
+  background: #009dd9;
+}
+
+@media only screen and (max-width: 425px) {
+  .main-nav {
+    width: 55px;
+  }
+  .main-nav .logo .mob {
+    height: 55px;
+    display: block;
+  }
+  .main-nav .logo .all-screen {
+    display: none;
+  }
+  .main-nav .nav li a span {
+    display: none;
+  }
+}

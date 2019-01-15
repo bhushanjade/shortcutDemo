@@ -1,2 +1,0 @@
-# shortcutDemo
-Created with CodeSandbox
