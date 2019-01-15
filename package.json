@@ -1,7 +1,7 @@
 {
-  "name": "new",
+  "name": "shortcut-demo",
   "version": "1.0.0",
-  "description": "",
+  "description": "Demo Using keyboard shortcut in react",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
